@@ -1,0 +1,11 @@
+expose:
+  type: ingress
+  tls:
+    enabled: false
+  ingress:
+    hosts:
+      core: harbor.tayeh.me
+      notary: notary.tayeh.me
+externalURL: http://harbor.tayeh.me
+harborAdminPassword: "tayeh123"
+secretKey: "not-a-secure-key"
